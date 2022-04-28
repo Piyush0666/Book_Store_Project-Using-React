@@ -35,22 +35,7 @@ function Dashboard() {
       reviewer={x.reviewer}
       discountPrice={x.discountPrice}
       originalPrice={x.originalPrice}
-      id={x.id}
-    />
-  ));
-  if (localStorage.getItem("token")) {
-    return (
-      <div>
-        <BookHeader />
-        <div className="mid-container1">
-          <div>Books</div>
-          <div className="item">({bookList.length} items)</div>
-        </div>
-        <div className="mainNotesContainer">{bookList}</div>
-        <Stack spacing={2} style={{ marginLeft: 500 }}>
-          <Pagination count={10} shape="rounded" />
-        </Stack>
-        <FooterCopyrights />
+     
       </div>
     );
   } else {
