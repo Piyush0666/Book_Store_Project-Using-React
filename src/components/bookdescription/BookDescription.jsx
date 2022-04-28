@@ -27,38 +27,7 @@ function BookDescription() {
     const cart =() =>{
         let obj = {
             userId: parseInt(localStorage.getItem("userId")),
-            bookId: currentBook.bookId
-            }
-            Addtocart(obj).then((response)=>{
-                console.log(response);
-                alert("Book added to cart");
-            }).catch(err => {
-                console.log(err);
-            })
-    }
-
-    const wishlist =() =>{
-        let obj = {
-            userId: parseInt(localStorage.getItem("userId")),
-            bookId: currentBook.bookId
-            }
-            AddtoWishlist(obj).then((response)=>{
-                console.log(response);
-                alert("Book added to wishlist");
-            }).catch(err => {
-                console.log(err);
-            })
-    }
-
-    const GetFeedbacks =() =>{        
-            retrieveFeedbacks().then((response)=>{
-                    console.log(response);
-                    setFeedbacks(response.data.data)              
-            }).catch(err => {
-                console.log(err);
-            })
-    }
-
+            bookId: currentBook.bookI
     const addFeedback=() =>{        
         addFeedbacks(addFeedbacksObj).then((response)=>{
             console.log(response);
