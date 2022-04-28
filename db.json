@@ -1,0 +1,20 @@
+[
+    {
+      "id": "2767052-the-hunger-games",
+      "title": "The Hunger Games",
+      "coverImageSrc": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1447303603l/2767052.jpg",
+      "rating": "4.33",
+      "genre": [
+        "young-adult",
+        "fiction",
+        "science-fiction",
+        "dystopia",
+        "fantasy",
+        "science-fiction"
+      ],
+      "price": "18.58",
+      "description": "Could you survive on your own, in the wild, with everyone out to make sure you don't live to see the morning?",
+      "authorName": "Suzanne Collins",
+      "authorId": "153394.Suzanne_Collins"
+    }
+]

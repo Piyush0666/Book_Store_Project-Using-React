@@ -1,0 +1,30 @@
+.mainAddressContainer{
+    width: 513px;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 2px;
+}
+
+.personal{
+    display: flex;
+    gap:9px;
+    width: 100%;
+    margin-left: 42px;
+}
+
+.personal1{
+    display: flex;
+    flex-direction: column;
+}
+
+.personal2{  
+    margin-left: 42px;
+    width: 100%;
+}
+
+.userAddress{
+    display: flex;
+    justify-content: space-between;
+}

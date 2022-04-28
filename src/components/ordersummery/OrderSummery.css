@@ -1,0 +1,7 @@
+.Ordersummery {
+  display: flex;
+  height: 222px;
+  width: 923px;
+  flex-direction: column;
+  /* border: 1px solid rgb(201, 199, 199); */
+}

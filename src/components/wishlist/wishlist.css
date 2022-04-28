@@ -1,0 +1,82 @@
+.wishlist{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70vw;
+    height: fit-content;
+    position: relative;
+    left: 161px;
+}
+
+.top{
+    display:flex;
+    height: 36px;
+    align-items: center;
+}
+
+.mid-container{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    padding-left: 30px;
+    background-color: rgb(195 190 190 / 20%);
+    border: 1px solid rgb(195 190 190 / 20%);
+}
+
+.home{
+    color: grey;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.part1{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.wishlistContainer{
+    display: flex;
+    height: 150px;
+    border: 1px solid rgba(131, 127, 127, 0.2);
+    align-items: center;
+}
+
+.BookImage{
+    width: 99px;
+    height: 94px;
+    padding-left: 30px;
+    margin-right: 33px;
+}
+
+.allDescription{
+    display: flex;
+    flex-direction: column;
+    width: 656px;   
+    gap:10px; 
+}
+
+.bookName1{
+    font-size: 13px;
+    height: 19px;
+    font-weight: 500;
+}
+.authorname1{
+      font-size: 11px;
+      color: gray;
+}
+
+.price1{
+    display: flex;
+    width: 99px;
+    justify-content: space-between;
+}
+
+.discount1{
+    font-size: 12px;    
+    font-weight: bold;          
+}
+.original1{      
+    font-size: 12px;
+    color: gray;
+    text-decoration: line-through;
+}

@@ -1,0 +1,35 @@
+.orders{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70vw;
+    height: fit-content;
+    position: relative;
+    left: 161px;
+    gap: 5px;
+}
+
+.datecontainer{
+    height: 80px;    
+    display:flex;
+}
+
+.greenDot{
+    width: 7px;
+    height: 7px;
+    background-color: #26A541;
+    border-radius: 50%;
+    margin-top: 7px;
+    margin-right: 4px;
+}
+.date{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.orderDescription{
+    display: flex;
+    flex-direction: column;
+    width: 524px;   
+    gap:10px;
+}

@@ -1,0 +1,24 @@
+.mainNotesContainer {
+  height: fit-content;
+  border: 1px solid white;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 15px;
+}
+
+.mid-container1 {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  padding: 0px 12%;
+  margin-top: 4rem;
+}
+
+.item {
+  color: rgb(182, 181, 181);
+}
+
+.css-10w330c-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected {
+  background-color: #8f2b2f;
+  color: white;
+}

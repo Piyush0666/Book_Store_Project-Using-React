@@ -1,0 +1,14 @@
+.newAddressDetails {
+  height: fit-content;
+  border: 1px solid rgb(180, 180, 180);
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+.addressDetails-title {
+  font-size: 15px;
+}
+.addressDetails-button {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}

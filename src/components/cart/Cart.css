@@ -1,0 +1,82 @@
+.location{
+    height: 29px;    
+    display:flex;
+    align-items: center;
+    margin-top: 9px;
+    border: 1px solid rgb(192, 192, 192);
+}
+
+.map{
+    width:15px;
+    height:19px;
+}
+
+.current{
+    font-size: 10px;
+    font-weight: bolder;
+    width: 164px;
+}
+
+.wishlistContainer1{
+    display: flex;
+    height: 150px;
+    align-items: center;
+}
+
+.cartDiv{
+    height: auto;
+}
+.orderDescription1{
+    display: flex;
+    flex-direction: column;
+    width: 624px;   
+    gap:10px;
+}
+.placeOrder{
+    display: flex;
+    height: fit-content;
+    flex-direction: column;
+    border: 1px solid rgb(201, 199, 199);
+    padding: 7px;
+}
+
+.quantity{
+    width: 117px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.one{
+    width: 26px;
+    height: 22px;
+    text-align: center;
+    border:1px solid rgb(180, 180, 180);
+}
+
+.continueShopping1{
+    background-color: rgb(85 82 247);
+    width: 168px;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    position: relative;
+    left: 745px;
+}
+
+.heading1{
+    display: flex;
+    justify-content: space-between;
+    width: 905px;
+}
+
+.addressDetails{
+    height: fit-content;
+    border: 1px solid rgb(180, 180, 180);
+}
+
+#summery{
+    margin-top: 10px;
+    margin-left: 27px;
+}
